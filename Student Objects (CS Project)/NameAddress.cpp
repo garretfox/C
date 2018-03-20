@@ -71,7 +71,7 @@ bool Name::operator == (const Name & N)
 		return true;
 			}
 			else
-				return false;
+		return false;
 }
 bool Name::operator > (const Name & N)
 {

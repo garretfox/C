@@ -101,15 +101,15 @@ void Student::WriteStudentToFile(fstream & O)
 	
 	(*this).GetAreaCode().Display(O);
 
-	O << "\n";
+	O << endl;
 	
 	(*this).GetPhoneNum().Display(O);
 
-	O << "\n";
+	O << endl;
 
 	(*this).GetStudID().Display(O);
 
-	O << "\n";
+	O << endl;
 	
 }
 void Student::DisplayStudent()
@@ -123,11 +123,11 @@ void Student::DisplayStudent()
 		PerName.DisplayFirst();
 		PerAdd.DisplayAddress();
 		AreaCode.Display();
-		cout << "\n";
+		cout << endl;
 		PhoneNum.Display();
-		cout << "\n";
+		cout << endl;
 		StudID.Display();
-		cout << "\n";
+		cout << endl;
 	}
 
 }

@@ -9,25 +9,25 @@ public:
 	Student();
 	Student(Address &, Name &);
 	Student  & operator =   (const Student &);
-	void    WriteStudent();
-	void    DisplayPerName();
-	void    DisplayPerAdd();
-	void    DisplayStudID();
-	void    DisplayStudent();
+	void           WriteStudent();
+	void         DisplayPerName();
+	void          DisplayPerAdd();
+	void          DisplayStudID();
+	void         DisplayStudent();
 	void    ReadStudentFromFile(fstream & F);
-	void    WriteStudentToFile(fstream & O);
-	void    ReadPhoneNum();
-	void    ReadAreaCode();
-	Name    & GetPerName();
-	Address & GetPerAdd();
-	Array<char, 10>  GetStudID();
-	Array<char, 7> GetPhoneNum();
-	Array<char, 4> GetAreaCode();
+	void     WriteStudentToFile(fstream & O);
+	void           ReadPhoneNum();
+	void           ReadAreaCode();
+	Name    &        GetPerName();
+	Address &         GetPerAdd();
+	Array<char, 10>   GetStudID();
+	Array<char, 7>  GetPhoneNum();
+	Array<char, 4>  GetAreaCode();
 	~Student();
 private:
-	Name      PerName;
-	Address   PerAdd;
-	Array<char, 10> StudID;
+	 Name            PerName;
+   	 Address          PerAdd;
+	 Array<char, 10>  StudID;
 	 Array<char, 7> PhoneNum;
 	 Array<char, 4> AreaCode;
 
@@ -69,7 +69,7 @@ inline Array<char, 4> Student::GetAreaCode()
 }
 inline Student & Student::operator = (const Student & P)
 {
-	PerAdd = P.PerAdd;
+	PerAdd  = P.PerAdd;
 	PerName = P.PerName;
 	return *this;
 }
