@@ -21,3 +21,11 @@ as well as operator overloading. There are also functions to deal with sorting
 the students and whatnot. 
 
 Most of this was done by me as it was not too complex.
+
+
+ConnectFour
+___________________
+Personal attempt to refresh some basic C++. Most of the code was made within 3hrs.
+I had some trouble with checking to see if four player pieces were connected as it 
+wasn't working as I'd hoped at first. After some testing I finally resolved the 
+issues. 
